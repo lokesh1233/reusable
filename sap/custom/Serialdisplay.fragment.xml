@@ -1,0 +1,55 @@
+<core:FragmentDefinition xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+
+	<Dialog  title="Serial Number(s)"
+		mode="none" 
+		contentHeight="50%" contentWidth="50%">
+		<subHeader>
+		<Toolbar>
+					<ToolbarSpacer />
+					<SearchField id="srchSralId" liveChange="sreialNumSearch"></SearchField>
+				</Toolbar>
+			
+		</subHeader>
+		
+		
+		<Table id="serialTabid" class="sapUiSizeCompact" noDataText="No Serial numbers Found"
+			 growing="true" growingThreshold="1000"
+			growingScrollToLoad="true">
+			<!-- <headerToolbar>
+				
+			</headerToolbar> -->
+			<columns>
+				<Column minScreenWidth="Tablet" demandPopin="true">
+					<header>
+						<Text text="Serial Number"  id="txtserialid"/>
+					</header>
+				</Column>
+				<Column minScreenWidth="Tablet" demandPopin="true" id="imeiId1">
+					<header>
+						<Text text="IMEI1" />
+					</header>
+				</Column>
+				<Column minScreenWidth="Tablet" demandPopin="true" id="imeiId2">
+					<header>
+						<Text text="IMEI2" />
+					</header>
+				</Column>
+				<Column minScreenWidth="Tablet" demandPopin="true" id="iccid1">
+					<header>
+						<Text text="ICCID"  id="txticcid"/>
+					</header>
+				</Column>
+				<Column minScreenWidth="Tablet" demandPopin="true" id="msnid">
+					<header>
+						<Text text="MSN"  />
+					</header>
+				</Column>
+			</columns>
+		</Table>
+		<buttons>
+			<Button text="Close" press="onCloseDialog" />
+		</buttons>
+	</Dialog>
+
+</core:FragmentDefinition>

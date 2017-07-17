@@ -1,0 +1,839 @@
+/*Message Popover CSS Override*/
+/* .sapMMsgPopoverItem>.sapMLIBContent>.sapMSLITitleDiv>.sapMSLITitleOnly{
+	white-space: initial;
+} */
+
+#msgPopover-messagePopover-dialog>#msgPopover-messagePopover-dialog-cont>
+#msgPopover-messagePopover-dialog-scroll>#msgPopover-messagePopover-dialog-scrollCont>
+#msgPopover-navContainer>#msgPopoverlistPage>#msgPopoverlistPage-cont>.sapMList>ul>li>
+.sapMLIBContent>.sapMSLITitleDiv>.sapMSLITitleOnly{
+	white-space: initial;
+}
+
+#msgPopover-messagePopover-dialog>#msgPopover-messagePopover-dialog-cont>
+#msgPopover-messagePopover-dialog-scroll>#msgPopover-messagePopover-dialog-scrollCont>
+#msgPopover-navContainer>#msgPopoverlistPage>#msgPopoverlistPage-cont>.sapMList>ul>li{
+	height : 100%;
+}
+
+/* object::-internal-media-controls-download-button {
+    display:none;
+}
+
+object::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+
+object::-webkit-media-controls-panel {
+    width: calc(100% + 30px); Adjust as needed
+} */
+
+
+/* .DshbdSearch{
+	padding: 6px 0px 0px 0px !important;
+}
+
+.DshbdSearch>.sapMInputBaseInner{
+	height: 2rem;
+}
+
+.sapUiUfdShellSearch{
+	max-width: 1190px;
+	width: 30%; 
+	float: right;
+}
+
+Override Title CSS
+.shellTitle {
+	color: rgba(128, 128, 128, 0.75) !important;
+	font-size: 1.5rem !important;
+}
+.sapUiUfdShellTitle {
+	display: block;
+	width: 50%;
+	font-size: 1.5rem;1.1rem
+    font-weight: normal;400
+    margin: 0;
+    padding: 0px 0px 0px 10px;
+    line-height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	float: left;
+	text-align: left;
+}
+
+.sapUiUfdShellHeadCenter>.sapUiUfdShellIco {
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 39.6px;
+    float: left;
+}
+
+.sapUiUfdShellHeadCenter>.sapUiUfdShellIco>img,.sapUiUfdShellHeadCenter>.sapUiUfdShellIco>img {
+    max-height: 36px;
+    max-width: 96px;
+    vertical-align: middle
+}
+
+Unified Shell Header CSS overrided
+.sapUiUfdShellHead {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.sapUiUfdSpltContPane {
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+Unified Shell Content CSS overrided
+.sapUiUfdSpltContCanvas{
+	background-color: #f7f7f7; 
+}
+
+.sapMPage{
+	background-color: #f7f7f7; 
+}
+
+Scroll Container CSS overrided
+.sapMScrollContScroll {
+    display: inline;
+}
+
+Class to identify Grid inside Unified Shell
+.gridSpecificClass{
+}
+
+Override Panel CSS
+.custom .sapMPanelContent {
+    padding: 0rem;
+}
+
+Override Custom Tile CSS
+.custom .sapMCustomTile {
+	background-color: #ffffff;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+	border-radius: 0.125rem;10px
+	border: 1px solid #dddddd;
+	cursor: pointer;
+	margin: 0.5rem;
+    width: 94%;
+	height: 10.2em;
+}
+
+.custom .sapMCustomTileContent {
+    width: 100%;
+    height: 11em;
+}
+
+Override StandardTile CSS
+.custom .sapMTile {
+    width: 90%;
+    height: 10em;
+    border-radius: 0.125rem;10px
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+	margin: 0rem;
+}
+
+.custom .sapMTileContent {
+    width: 100%;
+    height: 11em;
+}
+
+.tileHoverIn{
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15) !important;
+	-moz-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15) !important;
+	-webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15) !important;
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+}
+
+.tileHoverOut{
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15) !important;
+	-moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+}
+
+
+.sapMST {
+    background: transparent;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    font-size: 0;
+    border-radius: 0.125rem;
+    outline: none;
+    added for making similar to tiles
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    margin: 0.5rem;
+}
+
+.sapMSTWrapper {
+    position: absolute;
+    left: 100%
+}
+
+.sapMSTWrapper>.sapMGT,html.sap-desktop .sapMSTWrapper>.sapMGT:hover,html.sap-phone .sapMGTHvrOutln:active,html.sap-tablet .sapMGTHvrOutln:active {
+    box-shadow: none
+}
+
+.sapMST.OneByOne {
+    width: 11rem;
+    height: 10rem;11rem
+}
+
+.sapMST.TwoByOne {
+    width: 94%;22.5rem;
+    height: 10rem;11rem
+}
+
+.sapMST .sapMGT {
+    border: none
+}
+
+.sapMSTFocusDiv {
+    position: absolute;
+    pointer-events: none;
+    left: 1px;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    border-radius: 0.25rem
+}
+
+.sapMSTBulleted {
+    position: absolute;
+    text-align: center;
+    bottom: 0.25rem;
+    width: 100%;
+    z-index: 1;
+    cursor: pointer
+}
+
+.sapMSTBulleted>span {
+    display: inline-block;
+    height: 0.375rem;
+    width: 0.375rem;
+    margin: 0 0.25rem;
+    border-radius: 50%
+}
+
+.sapMST .sapMSTIconClickTapArea {
+    position: absolute;
+    right: 0.75rem;
+    top: 0.75rem;
+    height: 2rem;
+    width: 2rem;
+    z-index: 3;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer
+}
+
+.sapMST .sapMSTIconDisplayArea {
+    position: absolute;
+    right: 0.95rem;0.75rem
+    top: 0.65rem;0.75rem
+    height: 2rem;
+    width: 2rem;
+    z-index: 1;
+    opacity: 0.3;
+    overflow: hidden;
+    border-radius: 50%
+}
+Added for phone and Tablet
+html.sap-phone .sapMST .sapMSTIconDisplayArea, html.sap-tablet .sapMST .sapMSTIconDisplayArea {
+    right: 0.65rem;
+    top: 0.65rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+html.sap-desktop .sapMST .sapMSTIconClickTapArea:hover ~ .sapMSTIconDisplayArea {
+    opacity: 0.6
+}
+
+html.sap-desktop .sapMST.sapMSTIconPressed .sapMSTIconClickTapArea:hover ~ .sapMSTIconDisplayArea {
+    opacity: 1.0
+}
+
+.sapMST .sapMSTIconNestedArea {
+    right: 5.9%;
+    z-index: 1;
+    position: absolute;
+    top: 10.9%;
+    outline: none
+}
+
+.sapMST.sapMSTPauseIcon .sapMSTIconNestedArea {
+    right: 6.9%
+}
+
+.sapMSTIconNestedArea :active {
+    outline: none
+}
+
+html.sap-phone .sapMST .sapMSTIconClickTapArea,html.sap-tablet .sapMST .sapMSTIconClickTapArea {
+    right: 0.25rem;
+    top: 0.25rem;
+    height: 3rem;
+    width: 3rem
+}
+
+html.sap-desktop .sapMST:not(:hover).sapMST:not(:focus) .sapMSTIconDisplayArea,html.sap-desktop .sapMST:not(:hover).sapMST:not(:focus) .sapMSTIconNestedArea,html.sap-desktop .sapMST:not(:hover).sapMST:not(:focus) .sapMSTBulleted {
+    visibility: hidden
+}
+
+@media screen and (max-width: 374px) {
+    .sapMST.OneByOne {
+        width:9.25rem;
+        height: 9.25rem
+    }
+
+    .sapMST.TwoByOne {
+        width: 19rem;
+        height: 9.25rem
+    }
+
+    .sapMSTBulleted {
+        bottom: 0.188rem
+    }
+}
+
+.sapMST {
+    border: 1px solid #dddddd
+}
+
+html.sap-desktop .sapMST:hover,html.sap-tablet .sapMSTHvr:active,html.sap-phone .sapMSTHvr:active {
+    box-shadow: 0rem 0rem 0rem 0.125rem #ffffff
+    added to make it similar to tiles
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15) !important;
+	-moz-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15) !important;
+	-webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15) !important;
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+}
+
+html.sap-desktop .sapMST:focus .sapMSTFocusDiv {
+    border: 1px solid #ffffff
+}
+
+html.sap-desktop .sapMST:focus .sapMSTFocusDiv:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0.25rem;
+    margin: -1px;
+    border: 1px dotted #000000
+}
+
+.sapMSTBulleted>span {
+    background-color: #c7c7c7;
+    box-shadow: 0 0 0.25rem rgba(255,255,255,0.3)
+}
+
+.sapMSTBulleted>span.sapMSTActive {
+    background-color: #666666;
+    box-shadow: 0 0 0.25rem rgba(255,255,255,0.3)
+}
+
+.sapMST .sapMSTIconDisplayArea {
+    background-color: #004164
+}
+
+.sapMST.sapMSTIconPressed .sapMSTIconClickTapArea:hover ~ .sapMSTIconDisplayArea {
+    background-color: #007cc0
+}
+
+.sapMGT {
+    display: inline-block;
+    overflow: hidden;
+    background: #ffffff;
+    border-radius: 0.125rem;
+    border: 1px solid transparent;
+    position: relative;
+    outline: none
+}
+
+.sapMGT:focus {
+    outline: none
+}
+
+.sapMGT.OneByOne {
+    width: 11rem;
+    height: 11rem
+}
+
+.sapMGT.TwoByOne {
+    width: 26rem;22.5rem;
+    height: 11rem
+}
+
+.sapMGTHdrTxt>.sapMGTTitle,.sapMGTSubHdrTxt,.sapMGT .sapMGTContent {
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none
+}
+
+.sapMGTHdrTxt>.sapMGTTitle,.sapMGenericTileFtrFldTxt>.sapMGTFailed {
+    cursor: inherit
+}
+
+.sapMGTFailed {
+    width: 90%
+}
+
+.sapMGTInnrCnt {
+    display: inline-block
+}
+
+.sapMGTContent {
+    display: inline-block;
+    white-space: nowrap;
+    width: 100%
+}
+
+.sapMGTHdrTxt {
+    overflow: hidden
+}
+
+.sapMGTHdrTxt .sapMText {
+    display: inline;
+    line-height: 1.25rem
+}
+
+.sapMGTSubHdrTxt {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 1.25rem
+}
+
+.sapMGTHdrContent {
+    height: 3.625rem;3.625rem
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem
+}
+
+.sapMGTHdrIconImage {
+    float: right;
+    width: 2.5rem;
+    min-height: 2.5rem;
+    font-size: 2.5rem
+}
+
+.sapMGTOverlay {
+    position: absolute!important;
+    pointer-events: none;
+    opacity: 0.8;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0
+}
+
+.sapMGTFocusDiv {
+    position: absolute;
+    pointer-events: none;
+    left: 1px;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    border-radius: 0.25rem
+}
+
+.sapMGenericTileLoading {
+    height: 100%
+}
+
+.sapMGenericTileFtrFld {
+    left: 0.5rem;
+    bottom: 0.5rem;
+    display: table;
+    position: absolute
+}
+
+.sapMGenericTileFtrFldTxt {
+    font-weight: normal;
+    display: table-cell;
+    padding-left: 0.5rem;
+    vertical-align: bottom;
+    width: 100%
+}
+
+html[dir=rtl] .sapMGenericTileFtrFldTxt {
+    padding-right: 0.5rem
+}
+
+.sapMGenericTileFtrFldIcn {
+    margin-right: 0.5rem;
+    display: table-cell;
+    vertical-align: bottom
+}
+
+.sapMGenericTileFtrFldIcn>.sapMGTFtrFldIcnMrk {
+    vertical-align: bottom
+}
+
+.sapMGT.sapMGTHeaderMode .sapMGTHdrTxt:nth-last-of-type(2) {
+    max-height: 5rem
+}
+
+.sapMGT:not(.sapMGTHeaderMode) .sapMGTHdrTxt:nth-last-of-type(2) {
+    max-height: 2.5rem
+}
+
+html[data-sap-ui-browser*='ie'] .sapMGT.sapMGTHeaderMode .sapMGTHdrContent .sapMTextMaxLine,html[data-sap-ui-browser*='ed'] .sapMGT.sapMGTHeaderMode .sapMGTHdrContent .sapMTextMaxLine,html[data-sap-ui-browser*='ff'] .sapMGT.sapMGTHeaderMode .sapMGTHdrContent .sapMTextMaxLine {
+    max-height: 6.25rem!important
+}
+
+html[data-sap-ui-browser*='ie'] .sapMGT:not(.sapMGTHeaderMode) .sapMGTHdrContent .sapMTextMaxLine,html[data-sap-ui-browser*='ed'] .sapMGT:not(.sapMGTHeaderMode) .sapMGTHdrContent .sapMTextMaxLine,html[data-sap-ui-browser*='ff'] .sapMGT:not(.sapMGTHeaderMode) .sapMGTHdrContent .sapMTextMaxLine {
+    max-height: 3.75rem!important
+}
+
+@media screen and (max-width: 374px) {
+    .sapMGTHdrTxt .sapMText {
+        line-height:1.063rem
+    }
+
+    .sapMGTSubHdrTxt {
+        line-height: 1.063rem
+    }
+
+    .sapMGT.sapMGTHeaderMode .sapMGTHdrTxt:nth-last-of-type(2) {
+        max-height: 4.25rem
+    }
+
+    .sapMGT:not(.sapMGTHeaderMode) .sapMGTHdrTxt:nth-last-of-type(2) {
+        max-height: 2.125rem
+    }
+
+    html[data-sap-ui-browser*='ie'] .sapMGT.sapMGTHeaderMode>.sapMGTHdrContent .sapMTextMaxLine,html[data-sap-ui-browser*='ed'] .sapMGT.sapMGTHeaderMode>.sapMGTHdrContent .sapMTextMaxLine,html[data-sap-ui-browser*='ff'] .sapMGT.sapMGTHeaderMode>.sapMGTHdrContent .sapMTextMaxLine {
+        max-height: 5.3rem!important
+    }
+
+    html[data-sap-ui-browser*='ie'] .sapMGT:not(.sapMGTHeaderMode)>.sapMGTHdrContent .sapMTextMaxLine,html[data-sap-ui-browser*='ed'] .sapMGT:not(.sapMGTHeaderMode)>.sapMGTHdrContent .sapMTextMaxLine,html[data-sap-ui-browser*='ff'] .sapMGT:not(.sapMGTHeaderMode)>.sapMGTHdrContent .sapMTextMaxLine {
+        max-height: 3.125rem!important
+    }
+
+    .sapMGT.OneByOne {
+        width: 9.25rem;
+        height: 9.25rem
+    }
+
+    .sapMGT.TwoByOne {
+        width: 19rem;
+        height: 9.25rem
+    }
+
+    .sapMGTHdrContent {
+        height: 3.125rem;
+        margin-top: 0.625rem;
+        margin-left: 0.625rem;
+        margin-right: 0.625rem
+    }
+}
+
+.sapMSTWrapper>.sapMGT,html.sap-desktop .sapMSTWrapper>.sapMGT:hover,html.sap-phone .sapMGTHvrOutln:active,html.sap-tablet .sapMGTHvrOutln:active {
+    box-shadow: none
+}
+
+.sapMST .sapMGT {
+    border: none
+}
+
+.sapMGTHdrTxt>.sapMText {
+    color: #333333;
+    font-weight: normal;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1rem;
+    color: #007cc0;
+}
+
+.sapMGTSubHdrTxt {
+    color: #666666;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0.875rem;
+    font-weight: normal
+}
+
+.sapMGTHdrIconImage {
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    color: #007cc0
+}
+
+.sapMGT {
+    border: 1px solid #dddddd
+}
+
+html.sap-desktop .sapMGT:focus .sapMGTFocusDiv {
+    border: 1px solid #ffffff
+}
+
+html.sap-desktop .sapMGT:focus .sapMGTFocusDiv:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0.25rem;
+    margin: -1px;
+    border: 1px dotted #000000
+}
+
+html.sap-desktop .sapMGT:focus:not([tabindex]) {
+    border-color: transparent
+}
+
+.sapMGTBackgroundImage {
+    border-color: rgba(221,221,221,0.6)
+}
+
+.sapMGenericTileFtrFldTxt {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0.75rem;
+    color: #666666
+}
+
+.sapMGenericTileFtrFldIcn {
+    color: #666666
+}
+
+html.sap-desktop .sapMGT:hover,html.sap-phone .sapMGT:active,html.sap-tablet .sapMGT:active {
+    box-shadow: 0 0 0 0.125rem #ffffff;
+    border-color: transparent
+}
+
+html.sap-desktop .sapMGTBackgroundImage:hover,html.sap-phone .sapMGTBackgroundImage:active,html.sap-tablet .sapMGTBackgroundImage:active {
+    box-shadow: 0 0 0 0.125rem #ffffff;
+    border-color: rgba(221,221,221,0.6)
+}
+
+.sapMGenericTileFtrFldIcn {
+    color: #666666
+}
+
+.sapMGTOverlay {
+    background-color: #ffffff
+}
+
+@media screen and (max-width: 374px) {
+    .sapMGTHdrTxt>.sapMText {
+        font-size:0.875rem
+    }
+
+    .sapMGTSubHdrTxt {
+        font-size: 0.875rem
+    }
+}
+
+.sapMTileCnt {
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative
+}
+
+.sapMTileCnt.ft-Auto {
+    height: 6.375rem;
+    min-width: 11rem;
+    max-width: 22.5rem
+}
+
+.sapMTileCnt.ft-TwoByOne {
+    height: 6.375rem;
+    width: 22.5rem
+}
+
+.sapMTileCnt.ft-OneByOne {
+    height: 6.375rem;
+    width: 11rem
+}
+
+.sapMTileCntFtrTxt {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    left: 0;
+    box-sizing: border-box;
+    height: 1rem;
+    bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    line-height: 1rem
+}
+
+html[dir=rtl] .sapMTileCntFtrTxt {
+    text-align: left
+}
+
+.sapMTileCntContent {
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box
+}
+
+.sapMTileCntContent>.sapMTcInnerMarker {
+    display: inline-block;
+    vertical-align: bottom;
+    line-height: normal
+}
+
+.sapMTileCntContent {
+    height: 3.875rem;
+    margin-bottom: 0.25rem;
+    margin-top: 0.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem
+}
+
+.sapMTileCnt + .sapMTileCnt {
+    margin-left: 0.5rem
+}
+
+.sapMTileCntContent>.sapMNwC {
+    background-color: inherit
+}
+
+.sapMTileCnt.News {
+    height: 6.125rem;
+    margin-top: 0.25rem
+}
+
+.sapMTileCnt.News .sapMTileCntContent>.sapMTcInnerMarker {
+    vertical-align: top
+}
+
+@media screen and (max-width: 374px) {
+    .sapMTileCnt.ft-Auto {
+        height:5.5rem;
+        min-width: 9.25rem;
+        max-width: 19rem
+    }
+
+    .sapMTileCnt.ft-TwoByOne {
+        height: 5.5rem;
+        width: 19rem
+    }
+
+    .sapMTileCnt.ft-OneByOne {
+        height: 5.5rem;
+        width: 9.25rem
+    }
+
+    .sapMTileCntFtrTxt {
+        height: 0.938rem;
+        bottom: 0.625rem;
+        margin-left: 0.625rem;
+        margin-right: 0.625rem
+    }
+
+    .sapMTileCntContent {
+        height: 3.438rem;
+        line-height: 3.438rem;
+        margin-bottom: 0.25rem;
+        margin-top: 0.25rem;
+        padding-left: 0.625rem;
+        padding-right: 0.625rem
+    }
+
+    .sapMTileCnt.News {
+        height: 5.25rem
+    }
+}
+
+.sapMTileCntFtrTxt {
+    font-family: Arial,Helvetica,sans-serif;
+    color: #666666
+}
+
+.sapMTileCntFtrTxt {
+    font-size: 0.875rem
+}
+
+.sapMTileCnt.News {
+    background-color: rgba(255,255,255,0.6)
+}
+
+@media screen and (max-width: 374px) {
+    .sapMTileCntFtrTxt {
+        font-size:0.75rem
+    }
+}
+
+.sapMNwC {
+    display: inline-block;
+    outline: none;
+    width: 20.5rem;
+    height: 3.375rem
+}
+
+.sapMNwCCTxt {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    padding: 0.25rem 0 0 0;
+    max-width: 20.5rem;
+    color : #666666;
+}
+
+.sapMNwCCTxt .sapMText {
+    display: inline;
+    line-height: 1.063rem
+}
+
+.sapMNwCSbh {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    max-width: 20.5rem;
+    display: inline-block;
+    line-height: 1.063rem
+}
+
+@media screen and (max-width: 374px) {
+    .sapMNwC {
+        width:17.75rem;
+        height: 3.188rem
+    }
+
+    .sapMNwCCTxt {
+        max-width: 17.75rem;
+        padding: 0
+    }
+
+    .sapMNwCSbh {
+        max-width: 17.75rem
+    } */
+/* } */
+
